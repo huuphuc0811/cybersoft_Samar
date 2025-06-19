@@ -125,8 +125,8 @@
     /* padding: 8px; */
 }
 
-.nav__list span {
-    padding: 0 8px;
+.nav__item span {
+    padding: 10px 10px;
 }
 
 
@@ -136,21 +136,15 @@
 }
 
 .nav__list span:hover {
-
     animation-name: nav__down;
     animation-duration: 0.4s;
-    transition: all 0.5s linear;
+    transition: all 0.5s;
 }
 
 
 @keyframes nav__down {
     0% {
         transform: translateY(-20px);
-    }
-
-    50% {
-        transform: translateY(16px);
-
     }
 
     100% {
